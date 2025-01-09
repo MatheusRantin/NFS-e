@@ -28,7 +28,7 @@ function enviar(event) {
 
 
   if (!valorVenda || isNaN(valorVenda)) {
-      alert("Por favor, preencha corretamente o campo 'Valor da Venda'.");
+      alert("Por favor, verifique se o valor inserido no campo Valor Venda.");
       return;
   }
 
